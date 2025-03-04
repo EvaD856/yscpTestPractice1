@@ -4,7 +4,7 @@
 myDict = {}
 
 #Asks for name and a grade 10 times
-for names in range(5):
+for names in range(10):
     name = input("Enter a student name: ")
     grade = int(input("Enter the student's grade: "))
     myDict [name] = grade
